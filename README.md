@@ -1,27 +1,25 @@
 # OOP-Java
-“A collection of Java projects developed while studying Object-Oriented Programming (OOP), covering core concepts like encapsulation, inheritance, polymorphism, abstraction, and design principles.”
 
-# Java OOP Practice 🚀
+“Uma coleção de projetos em Java desenvolvidos durante o estudo de Programação Orientada a Objetos (POO), cobrindo conceitos fundamentais como encapsulamento, herança, polimorfismo, abstração e princípios de design.”
 
-This repository contains projects I developed while learning Object-Oriented Programming (OOP) using Java.
+# Prática de POO em Java 🚀
 
-## 📚 Topics Covered
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Abstraction
-- Interfaces
-- Basic Design Patterns
+Este repositório contém projetos que desenvolvi enquanto aprendia Programação Orientada a Objetos (POO) usando Java.
 
-## 📁 Projects
+## 📚 Tópicos Abordados
 
-### 1. Bank System
-A simple banking system demonstrating encapsulation and object interaction.
-(this is only a placeholder for now)
+* Encapsulamento
+* Herança
+* Polimorfismo
+* Abstração
+* Interfaces
+* Padrões de Projeto básicos
 
-## 🎯 Goal
-To become a proficient Java developer and build solid OOP foundations.
+## 🎯 Objetivo
 
-## 🛠️ Technologies
-- Java
-- Git & GitHub
+Tornar-me um desenvolvedor Java proficiente e construir uma base sólida em POO.
+
+## 🛠️ Tecnologias
+
+* Java
+* Git & GitHub

@@ -1,55 +1,51 @@
-# ☕ Java Basics
+# ☕ Fundamentos de Java
 
-This repository contains simple Java programs developed while learning the fundamentals of programming.
+Este repositório contém programas simples em Java desenvolvidos durante o aprendizado dos fundamentos da programação.
 
-The focus of these projects is to practice:
+O foco desses projetos é praticar:
 
-* Conditional statements (`if`, `else if`, `else`)
-* Loops (`while`)
-* User input handling with `Scanner`
-* Basic problem-solving and logic building
+* Estruturas condicionais (`if`, `else if`, `else`)
+* Laços de repetição (`while`, `for`, `do while`, `case `)
+* Entrada de dados com `Scanner`
+* Lógica de programação e resolução de problemas
 
-## 📂 Projects
+## 📂 Projetos
 
-### 🔹 BMI Calculator
+### 🔹 Calculadora de IMC (BMI)
 
-Calculates the Body Mass Index (BMI) based on weight and height, and classifies the result into categories.
+Calcula o Índice de Massa Corporal com base no peso e altura, e classifica o resultado.
 
-### 🔹 GPA Calculator
+### 🔹 Calculadora de Média (GPA)
 
-Receives three grades, validates the input, and calculates the average (GPA).
+Recebe três notas, valida os valores e calcula a média.
 
-### 🔹 Simple Interest Calculator
+### 🔹 Calculadora Simples
 
-Calculates simple interest using the formula:
+Realiza as quatro operações básicas:
+
+* Adição
+* Subtração
+* Multiplicação
+* Divisão (com validação de divisão por zero)
+
+### 🔹 Calculadora de Juros Simples
+
+Calcula juros simples usando a fórmula:
 
 ```
-Interest = (loan * interestRate * months) / 100
+Juros = (valor * taxa * meses) / 100
 ```
 
-### 🔹 Simple Calculator
+### 🔹 Calculadora Simples
 
-Performs the four basic mathematical operations:
+Realiza as quatro operações básicas:
 
-* Addition
-* Subtraction
-* Multiplication
-* Division (with division-by-zero validation)
-
-## 🎯 Purpose
-
-These projects are part of my learning journey in Java, focusing on building a strong foundation before moving on to:
-
-* Functions (methods)
-* Object-Oriented Programming (OOP)
-* More complex projects
-
-## 🚀 Next Steps
-
-* Refactor these programs using methods
-* Apply Object-Oriented Programming concepts
-* Improve input validation and user experience
+* Adição
+* Subtração
+* Multiplicação
+* Divisão (com validação de divisão por zero)
 
 ---
 
-💡 Feel free to explore and suggest improvements!
+
+

@@ -106,15 +106,5 @@ Simulação de um sistema de conta bancária com operações básicas.
 * Manipulação de estado do objeto (ativo/inativo)
 * Organização de operações estilo CRUD
 
----
+---------------
 
-## 🚀 Objetivo
-
-Esses projetos ajudam a consolidar a base da POO em Java, preparando para conceitos mais avançados como:
-
-* Herança
-* Polimorfismo
-* Abstração
-* Interfaces
-
----

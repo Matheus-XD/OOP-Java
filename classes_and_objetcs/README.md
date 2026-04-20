@@ -34,4 +34,4 @@ O programa:
 * Verifica se é possível escrever (dependendo se está tampada)
 
 
----
+------------------

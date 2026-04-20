@@ -1,18 +1,82 @@
-## Getting Started
+### 📘 README — Herança (Inheritance)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este diretório reúne projetos em Java focados no estudo de **Herança**, um dos pilares da Programação Orientada a Objetos (POO).
 
-## Folder Structure
+O objetivo desses projetos é entender como classes podem **herdar atributos e comportamentos**, além de aplicar:
 
-The workspace contains two folders by default, where:
+* Reutilização de código
+* Sobrescrita de métodos (**@Override**)
+* Polimorfismo
+* Uso de classes abstratas
+* Especialização de comportamentos
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 📂 Projetos
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### 🔹 Employee System (Inheritance)
 
-## Dependency Management
+Sistema de funcionários com diferentes tipos de cargos e regras de bônus.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+**Funcionalidades:**
+
+* Cadastro de funcionários com nome e salário
+* Cálculo de bônus baseado no tipo de funcionário
+* Exibição de informações completas (salário + bônus + salário atualizado)
+
+**Regras implementadas:**
+
+* Gerente recebe **20% de bônus**
+* Desenvolvedor recebe **10% de bônus**
+* Estagiário **não recebe bônus**
+
+**Conceitos praticados:**
+
+* Herança (`Manager`, `Developer`, `Intern` herdam de `Employee`)
+* Sobrescrita de métodos (`calculateBonus`)
+* Polimorfismo (mesmo método com comportamentos diferentes)
+* Reutilização de código da classe base
+
+---
+
+### 🔹 School System (Inheritance + Abstraction)
+
+Sistema escolar com diferentes tipos de pessoas e suas especializações.
+
+**Estrutura:**
+
+* Classe base abstrata: `Person`
+* Classes derivadas:
+
+  * `Student`
+  * `Teacher`
+  * `Worker`
+  * `Guest`
+* Classe derivada de outra subclasse:
+
+  * `ScholarshipStudent` (herda de `Student`)
+
+**Funcionalidades:**
+
+* Armazenamento de dados comuns (nome, idade, sexo)
+* Comportamentos específicos para cada tipo de pessoa
+* Controle de mensalidade para alunos
+* Sistema de bolsa de estudos com desconto na mensalidade
+
+**Regras implementadas:**
+
+* `Person` não pode ser instanciada diretamente (classe abstrata)
+* Aluno bolsista paga mensalidade com desconto
+* Professores possuem especialidade e salário
+* Funcionários podem mudar de setor
+
+**Conceitos praticados:**
+
+* Herança em múltiplos níveis
+* Uso de classe abstrata (`abstract class`)
+* Sobrescrita de métodos (`toString`, `payfee`)
+* Especialização de comportamento em subclasses
+* Polimorfismo aplicado a diferentes tipos de objetos
+
+------------------
+

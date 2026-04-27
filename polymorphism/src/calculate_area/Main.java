@@ -3,15 +3,17 @@ package calculate_area;
 public class Main {
     public static void main(String[] args) {
 
+        GeometricShape[] shapes = {
+            new Square(4),
+            new Circle(4),
+            new Triangle(4, 6)
+        };
 
+        for(int i = 0; i < shapes.length; i++){
 
-        Square s = new Square(4);
-        Circle c = new Circle(4);
-        Triangle t = new Triangle(4, 6);
+            System.out.println(shapes[i].calculateArea());
+        }
 
-        System.out.println(s.calculateArea());
-        System.out.println(c.calculateArea());
-        System.out.println(t.calculateArea());
 
     }
 }

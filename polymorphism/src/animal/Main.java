@@ -2,10 +2,14 @@ package animal;
 
 public class Main {
     public static void main(String[] args) {
-        Dog d1 = new Dog();
-        Cat c1 = new Cat();
+       
+       Animal[] animais = new Animal[2];
 
-        c1.makenoise();
-        d1.makenoise();
+       animais[0] = new Cat();
+       animais[1] = new Dog();
+
+       for(int i = 0; i < animais.length; i++){
+         animais[i].makenoise();
+       }
     }
 }
